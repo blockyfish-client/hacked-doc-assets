@@ -30846,14 +30846,14 @@ class u_ {
                 a.hasWalkingAbility && (i += a[e(340)]);
                 const r = Nu[e(322)](n, i, this.pressElapsed);
                 s[e(298)](r),
-                this[e(344)] >= 200 && (this.chargingElapsed += t) >= 250 && (this[e(368)] -= 250,
+                this[e(344)] >= 200 && (this.chargingElapsed += t) >= 0 && (this[e(368)] -= 0,
                 this[e(375)][e(315)](br(Gi[e(363)])))
             } else if (s[e(287)]()) {
                 const n = 100
                   , i = a[e(349)]
                   , r = Nu[e(322)](n, i, this[e(344)]);
                 s[e(298)](r),
-                this[e(344)] >= 200 && (this[e(368)] += t) >= 250 && (this[e(368)] -= 250,
+                this[e(344)] >= 200 && (this[e(368)] += t) >= 0 && (this[e(368)] -= 0,
                 this[e(375)].sendBytePacket(br(Gi[e(363)])))
             } else
                 (a[e(407)] == Ji[e(345)] || a[e(407)] == Ji[e(336)] || a.fishLevel == Ji[e(355)] || a[e(407)] == Ji.horseshoecrab) && (this[e(256)] += t) >= 50 && (this[e(256)] -= 50,
