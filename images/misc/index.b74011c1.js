@@ -30728,7 +30728,7 @@ class u_ {
         const t = r_
           , e = xl[t(255)][t(285)]
           , n = Date[t(356)]();
-        (!e || !e[t(308)] || n - this.lastBoostTime > 250) && (this.lastBoostTime = n,
+        (!e || !e[t(308)] || n - this.lastBoostTime > 0) && (this.lastBoostTime = n,
         this[t(375)][t(315)](br(Gi[t(365)])))
     }
     [r_(314)](t) {
