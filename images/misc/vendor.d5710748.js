@@ -71600,7 +71600,8 @@ const G9 = {
 				e && (t.sourceImgMouseDown.on = !1), (h.width = t.width), (h.height = t.height), d.clearRect(0, 0, t.width, t.height), (d.fillStyle = "png" == n ? "rgba(0,0,0,0)" : r), d.fillRect(0, 0, t.width, t.height), d.drawImage(o, a / c, s / c, l / c, u / c), (t.createImgUrl = h.toDataURL(i));
 			},
 			prepareUpload() {
-				let { url: e, createImgUrl: sourceImgUrl, field: n, ki: r } = this;
+				this.createImgUrl = this.sourceImgUrl;
+				let { url: e, createImgUrl: t, field: n, ki: r } = this;
 				this.$emit("crop-success", t, n, r), "string" == typeof e && e ? this.upload() : this.off();
 			},
 			upload() {
