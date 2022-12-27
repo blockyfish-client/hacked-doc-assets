@@ -25000,6 +25000,7 @@ var yC = h({
         async function m(t) {
             const e = n
               , a = o[e(343)][t];
+            window.formBytePacket = kr
             a && up.sendBytePacket(kr(Vi.Emote, a[e(351)])),
             u[e(343)] = null,
             s.value = !1
